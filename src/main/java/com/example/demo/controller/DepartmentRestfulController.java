@@ -16,6 +16,4 @@ public class DepartmentRestfulController {
     public List<Department> getAllDepartments(){
         return departmentService.getAllDepartments();
     }
-
-
 }

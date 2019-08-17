@@ -30,5 +30,4 @@ public class CustomEmployee implements Serializable {
     public void setLname(String LNAME) {
         this.lname = lname;
     }
-
 }

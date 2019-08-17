@@ -60,7 +60,4 @@ public class Department {
     public void setDlocation(String dlocation) {
         this.dlocation = dlocation;
     }
-
-
-
 }
