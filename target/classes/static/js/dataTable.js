@@ -31,14 +31,7 @@ $(document).ready( function () {
 				  { "mData": "sex" },
 				  { "mData": "salary" },
 				  { "mData": "superssn" },
-				  { "mData": "dno" },
-				  { "mData": "pnumber" },
-				  { "mData": "hours" },
-				  { "mData": "dname"},
-				  { "mData": "mgrstartdate" },
-				  { "mData": "dlocation" },
-				  { "mData": "pname" },
-				  { "mData": "plocation"}
+				  { "mData": "dno" }
 			],
 			"dom": "Bfrtip",
 			"buttons": [

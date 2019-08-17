@@ -12,7 +12,7 @@ public class EmployeeServiceImpl implements EmployeeService {
     @Autowired
     private EmployeeRepository employeeRepository;
     @Override
-    public List<Object[]> getAllEmployees() { return employeeRepository.allemployee(); }
+    public List<Employee> getAllEmployees() { return employeeRepository.findAll(); }
 
     public List <CustomEmployee> getITEmployees() {return employeeRepository.getUserEntityFullNameByDname("IT");}
 

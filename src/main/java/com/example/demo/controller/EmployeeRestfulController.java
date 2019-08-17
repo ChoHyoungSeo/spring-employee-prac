@@ -19,7 +19,7 @@ public class EmployeeRestfulController {
     private EmployeeService employeeService;
 
     @RequestMapping(path="/employees", method=RequestMethod.GET)
-    public List<Object[]> getAllEmployees(){
+    public List<Employee> getAllEmployees(){
         return employeeService.getAllEmployees();
     }
 
