@@ -18,4 +18,8 @@ public interface EmployeeRepository extends JpaRepository<Employee, Long> {
 //    List<Employee> findByDname(String dname);
     @Query("select distinct new com.example.demo.model.CustomEmployee(e.fname, e.lname, e.salary) from Employee e join Department d on e.dno = d.dnumber where d.dname = :dname")
     List<CustomEmployee> getUserEntityFullNameByDname(@Param("dname") String dname);
+
+
+    @Query("select e, d from Employee e join Department d on e.dno = d.dnumber")
+    List<Object[]> allemployee();
 }

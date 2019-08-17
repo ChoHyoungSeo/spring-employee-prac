@@ -6,7 +6,7 @@ import com.example.demo.model.CustomEmployee;
 import com.example.demo.model.Employee;
 
 public interface EmployeeService {
-    public List<Employee> getAllEmployees();
+    public List<Object[]> getAllEmployees();
     public List <CustomEmployee> getITEmployees();
     public List<CustomEmployee> getSalesEmployees();
     public List<CustomEmployee> getAdminEmployees();
@@ -14,4 +14,4 @@ public interface EmployeeService {
     public List<CustomEmployee> getHREmployees();
     public List<CustomEmployee> getShippingEmployees();
     public List<CustomEmployee> getFinanceEmployees();
-}
+        }

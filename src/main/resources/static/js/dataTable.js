@@ -23,7 +23,6 @@ $(document).ready( function () {
 			"sAjaxDataProp": "",
 			"order": [[ 0, "asc" ]],
 			"aoColumns": [
-			      { "mData": "id"},
 		          { "mData": "ssn" },
 				  { "mData": "fname" },
 				  { "mData": "lname" },
@@ -33,14 +32,13 @@ $(document).ready( function () {
 				  { "mData": "salary" },
 				  { "mData": "superssn" },
 				  { "mData": "dno" },
-//				  { "mData": "pnumber" },
-//				  { "mData": "hours" },
-//				  { "mData": "dnumber" },
-//				  { "mData": "dname"},
-//				  { "mData": "mgrstartdate" },
-//				  { "mData": "dlocation" },
-//				  { "mData": "pname" },
-//				  { "mData": "plocation"}
+				  { "mData": "pnumber" },
+				  { "mData": "hours" },
+				  { "mData": "dname"},
+				  { "mData": "mgrstartdate" },
+				  { "mData": "dlocation" },
+				  { "mData": "pname" },
+				  { "mData": "plocation"}
 			],
 			"dom": "Bfrtip",
 			"buttons": [
